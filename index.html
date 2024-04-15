@@ -1,1 +1,923 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- Hi, Jon Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7580334-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-7580334-2");
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <!-- <link rel="icon" type="image/png" href="images/none.png" /> -->
+  <title>Wenzheng Chen</title>
+  <!-- <meta name="author" content="Wenzheng Chen" /> -->
+</head>
+
+<body>
+  <table style="
+        width: 100%;
+        max-width: 800px;
+        border: 0px;
+        border-spacing: 0px;
+        border-collapse: separate;
+        margin-right: auto;
+        margin-left: auto;
+      ">
+    <tbody>
+      <tr style="padding: 0px">
+        <td style="padding: 0px">
+          <!-- Bio ---------------------------------->
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr style="padding: 0px">
+                <td style="padding: 2.5%; width: 63%; vertical-align: middle">
+                  <p style="text-align: center">
+                    <name>Wenzheng Chen</name>
+                  </p>
+                  <p style="justify-content: space-between">
+                    I'm a research scientist at
+                    <a href="https://research.nvidia.com/labs/toronto-ai/">NVIDIA Toronto AI Lab</a>, where I mainly
+                    work on Computational Photography and 3D
+                    Vision.
+                  </p>
+                  <p style="justify-content: space-between">
+                    I completed my Ph.D. at the University of Toronto, under
+                    supervision of Prof.
+                    <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                    and Prof.
+                    <a href="http://www.cs.toronto.edu/~kyros/">Kyros Kutulakos</a>. Prior to that, I earned my master's
+                    degree at
+                    <a href="http://irc.cs.sdu.edu.cn">IRC, Shandong University</a>, collaborating with Prof.
+                    <a href="http://yangyan.li/">Yangyan Li</a>, Prof.
+                    <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html">Changhe Tu</a>, and Prof.
+                    <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>. I obtained my bachelor's degree at
+                    <a href="https://www.tsxt.sdu.edu.cn/">Taishan College, Shandong University</a>.
+                  </p>
+                  <p style="justify-content: space-between">
+                    I interned at
+                    <a href="https://algolux.com/">Algolux</a> in 2018 summer,
+                    <a href="https://www.nvidia.com/en-us/">NVIDIA</a> in 2018
+                    fall and
+                    <a href="https://www.snapchat.com/">Snapchat</a> in 2019
+                    summer.
+                  </p>
+
+                  <p style="text-align: center">
+                    <a href="mailto:wenzheng@cs.toronto.edu">Email</a>
+                    &nbsp/&nbsp
+                    <a href="https://scholar.google.com/citations?user=KzhR_TsAAAAJ&hl=en">Google Scholar</a>
+                    &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/wenzheng-chen-700823116/">
+                      LinkedIn
+                    </a>
+                  </p>
+                </td>
+                <td style="padding: 2.5%; width: 40%; max-width: 40%">
+                  <a href="images/7341614762140.jpg"><img style="width: 100%; max-width: 100%" alt="profile photo"
+                      src="images/7341614762140.jpg" class="hoverZoomLink" /></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Reserch -->
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <heading>Research</heading>
+                  <p>
+                    <!-- 
+                        Generally, my research focuses on computational
+                      photography and 3D vision. More specifically, I work on
+                      predicting 3D properties from various imaging systems,
+                      including camera, renderer, structured light and SPAD. I
+                      am particularly interested in differentiating imaging
+                      systems and embedding them in deep learning, which takes
+                      advantages of both neural network features and all kinds
+                      of geometric, optical and physical knowledge brought by
+                      the imaging systems.
+                      -->
+                    Generally, my research focuses on computational photography and 3D vision. More specifically, I
+                    mainly explore how to utilize various imaging systems, including digital camera, LiDAR, structured
+                    light, and SPAD, etc, to assess a scene and predict its corresponding 3D attributes, such as 3D
+                    geometry, texture, surface material, environment light, and more.
+                  </p>
+                  <p>
+                    I am particularly interested in how to differentiate imaging systems and embed them within deep
+                    learning frameworks, which allows us to leverage all kinds of optical and physical prior knowledge
+                    inside imaging systems as well as the power of deep learning methods to boost 3D perception
+                    performance.
+                  </p>
+                  <p>
+                    My Ph.D. works mainly discover differentiable rendering, structured light, and non-line-of-sight
+                    imaging. In the future, I am willing to explore more broader imaging technology like time-of-flight,
+                    photometric stereo, polarization, spectrum, or even medical, astronomy, and scientific imaging. My
+                    long-term goal is to design 3D imaging software and hardware which can be used by everyone in the
+                    world.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- News -->
+
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <heading>News</heading>
+                  <p>
+                    <li>
+                      <font color="black"> I will join Peking University as a tenure-track Assistant Professor starting
+                        from 2024.04.
+                      </font>
+                    </li>
+                    <!-- <li>For properspective students, if you are interested in my research,
+          please drop me a line!</li> -->
+                    <li>One paper accepted by SIGGRAPH 2023.</li>
+                    <li>One paper accepted by ICCV 2023.</li>
+                    <li>Three papers accepted by CVPR 2023.</li>
+                  </p>
+                  <p>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- 招生 -->
+
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <heading>Hiring</heading>
+                  <p>
+                    <li>
+                      <font color="black"> We are actively looking for interns, Masters, and PhDs. Feel free to drop me a line if you are interested in my research or potential collaborations.
+                      </font>
+                    </li>
+                    <li>
+                      <font color="red"> For graduate school applicants, we have two openings for PhD students in 2025.
+                      </font>
+                    </li>
+                    <li>
+                      <font color="red"> 课题组有两个2024年申请,2025年9月入学的博士名额,请有意的同学提前和我联系.
+                      </font>
+                    </li>
+                    <!-- <li>For properspective students, if you are interested in my research,
+			    please drop me a line!</li> -->
+                  </p>
+                  <p>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Publication head-->
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <heading>Selected Publication</heading>
+                  <p>Representative papers are <span class="highlight">highlighted</span>, with full publication list in
+                    <a href="https://scholar.google.com/citations?user=KzhR_TsAAAAJ&hl=en">Google Scholar</a>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Publication head-->
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+
+              <tr onmouseout="flexicubes_stop()" onmouseover="flexicubes_start()">
+                <td width="25%">
+                  <div class="one">
+                    <div class="two" id='flexicubes_image'>
+                      <img src='./images/flexicubes/dynamic.gif' width="100%">
+                    </div>
+                    <img src='./images/flexicubes/static.jpg' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function flexicubes_start() {
+                      document.getElementById('flexicubes_image').style.opacity = "1";
+                    }
+                    function flexicubes_stop() {
+                      document.getElementById('flexicubes_image').style.opacity = "0";
+                    }
+                    flexicubes_stop()
+                  </script>
+                </td>
+                <td valign="middle" width="75%">
+                  <a href="https://research.nvidia.com/labs/toronto-ai/flexicubes/">
+                    <papertitle>Flexible Isosurface Extraction for Gradient-Based Mesh Optimization</papertitle>
+                  </a>
+                  <br>
+                  <a href="http://www.cs.toronto.edu/~shenti11/">Tianchang Shen</a>, 
+                  <a href="https://research.nvidia.com/person/jacob-munkberg">Jacob Munkberg</a>, 
+                  <a href="https://research.nvidia.com/person/jon-hasselgren">Jon Hasselgren</a>, 
+                  <a href="https://kangxue.org/">Kangxue Yin</a>,
+                  <a href="http://www.cs.toronto.edu/~zianwang/">Zian Wang</a>,
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="https://zgojcic.github.io/">Zan Gojcic</a>, 
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>,
+                  <a href="https://nmwsharp.com/">Nicholas Sharp</a>*,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>*
+                  <br>
+                  <em>ACM Transactions on Graphics (SIGGRAPH), 2023</em>
+                  <br>
+                  <a href="https://research.nvidia.com/labs/toronto-ai/flexicubes/">project page</a> /
+                  <a href="https://nv-tlabs.github.io/flexicubes_website/FlexiCubes_paper.pdf">pdf</a> /
+                  <a href="https://nv-tlabs.github.io/flexicubes_website/flexicubes_suppl.pdf">supp</a> /
+                  <a href="https://dl.acm.org/doi/10.1145/3592430">acm</a> /
+                  <a href="https://nv-tlabs.github.io/flexicubes_website/flexicubes_bib.txt">bibtex</a> 
+                  <p>
+                  </p>
+                </td>
+              </tr> 
+
+
+              <tr>
+                <td width="25%">
+                  <div class="one">
+                    <img src='./uoft.svg.png' width="100%">
+                  </div>
+                </td>
+                <td valign="middle" width="75%">
+                  <a href="./Chen_Wenzheng_PHD_thesis.pdf">
+                    <papertitle>Boosting 3D Reconstruction with Differentiable Imaging Systems</papertitle>
+                  </a>
+                  <br>
+                  <strong>Wenzheng Chen</strong>
+                  <br>
+                  <em>Ph.D. Thesis, 2023</em>
+                  <br>
+                  <p>
+                  </p>
+                </td>
+              </tr> 
+
+
+              <!-- Publication 2023-->
+              <tr onmouseout="fegr_stop()" onmouseover="fegr_start()">
+                <td style="padding: 20px; width: 23%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id='fegr_image'>
+                      <img src='./images/fegr/dynamic.gif' width="100%">
+                    </div>
+                    <img src='./images/fegr/static.jpeg' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function fegr_start() {
+                      document.getElementById('fegr_image').style.opacity = "1";
+                    }
+                    function fegr_stop() {
+                      document.getElementById('fegr_image').style.opacity = "0";
+                    }
+                    fegr_stop()
+                  </script>
+                </td>
+
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://nv-tlabs.github.io/fegr/">
+                    <papertitle>Neural Fields meet Explicit Geometric Representations for Inverse Rendering of Urban
+                      Scenes</papertitle>
+                  </a>
+                  <br>
+                  <a href="http://www.cs.toronto.edu/~zianwang/">Zian Wang</a>,
+                  <a href="http://www.cs.toronto.edu/~shenti11/">Tianchang Shen</a>,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>,
+                  <a href="https://shengyuh.github.io">Shengyu Huang</a>,
+                  <a href="https://research.nvidia.com/person/jacob-munkberg">Jacob Munkberg</a>,
+                  <a href="https://research.nvidia.com/person/jon-hasselgren">Jon Hasselgren</a>,
+                  <a href="https://zgojcic.github.io/">Zan Gojcic</a>,
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  <br>
+                  <em>CVPR</em>, 2023
+                  <br>
+                  <a href="https://nv-tlabs.github.io/fegr/">project page</a> /
+                  <a href="https://arxiv.org/abs/2304.03266">arXiv</a> /
+                  codes /
+                  <a href="https://www.youtube.com/watch?v=1KvHY3tlhhY">video</a> /
+                  <a href="https://nv-tlabs.github.io/fegr/assets/fegr_bib.txt">bibtex</a>
+                  <p>
+                    Combined with other NVIDIA technology, FEGR is one component of <a
+                      href="https://www.youtube.com/watch?v=vgot-CK1xRk">Neural Reconstruction Engine</a> announced in
+                    <a href="https://youtu.be/PWcNlRI00jo?t=2473">GTC Sept 2022 Keynote</a>.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Publication 2022-->
+              <tr onmouseout="get3d_stop()" onmouseover="get3d_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id='get3d_image'>
+                      <img src='./images/get3d/get3d.gif' width="100%">
+                    </div>
+                    <img src='./images/get3d/get3d.jpeg' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function get3d_start() {
+                      document.getElementById('get3d_image').style.opacity = "1";
+                    }
+                    function get3d_stop() {
+                      document.getElementById('get3d_image').style.opacity = "0";
+                    }
+                    get3d_stop()
+                  </script>
+                </td>
+
+                <td style="padding: 20px; width: 75%; vertical-align: top">
+                  <a href="https://nv-tlabs.github.io/GET3D/">
+                    <papertitle>GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images
+                    </papertitle>
+                  </a>
+                  <br>
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>,
+                  <a href="http://www.cs.toronto.edu/~shenti11/">Tianchang Shen</a>,
+                  <a href="http://www.cs.toronto.edu/~zianwang/">Zian Wang</a>,
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="https://kangxue.org/">Kangxue Yin</a>,
+                  <a href="https://scholar.google.ca/citations?user=8q2ISMIAAAAJ&hl=en">Daiqing Li</a>,
+                  <a href="https://orlitany.github.io/">Or Litany</a>,
+                  <a href="https://zgojcic.github.io/">Zan Gojcic</a>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  <br>
+                  <em>NeurIPS</em>, 2022
+                  <font color="red"><strong> &nbsp (Spotlight Presentation)</strong></font>
+                  <br>
+                  <a href="https://nv-tlabs.github.io/GET3D/">project page</a> /
+                  <a href="https://arxiv.org/abs/2209.11163">arXiv</a> /
+                  <a href="https://github.com/nv-tlabs/GET3D">codes</a> /
+                  <a href="https://www.youtube.com/watch?v=shy51E-MU8Y">video</a> /
+                  <a href="https://nv-tlabs.github.io/GET3D/assets/bib.txt">bibtex</a>
+                  <p>We develop a 3D generative model to generate meshes with textures, bridging the success in the
+                    differentiable surface modeling, differentiable rendering and 2D GANs.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="drivear_stop()" onmouseover="drivear_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id='drivear_image'>
+                      <img src='./images/ECCV22_DriveAR/2462_b.jpeg' width="100%">
+                    </div>
+                    <img src='./images/ECCV22_DriveAR/2462.jpeg' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function drivear_start() {
+                      document.getElementById('drivear_image').style.opacity = "1";
+                    }
+                    function drivear_stop() {
+                      document.getElementById('drivear_image').style.opacity = "0";
+                    }
+                    drivear_stop()
+                  </script>
+                </td>
+
+                <td style="padding: 20px; width: 75%; vertical-align: top">
+                  <a href="https://nv-tlabs.github.io/outdoor-ar/">
+                    <papertitle>Neural Light Field Estimation for Street Scenes with Differentiable Virtual Object
+                      Insertion</papertitle>
+                  </a>
+                  <br>
+                  <a href="http://www.cs.toronto.edu/~zianwang/">Zian Wang</a>,
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="http://www.cs.toronto.edu/~davidj/">David Acuna</a>,
+                  <a href="https://jankautz.com">Jan Kautz</a>,
+                  <a href="https://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  <br>
+                  <em>ECCV</em>, 2022
+                  <br>
+                  <a href="https://nv-tlabs.github.io/outdoor-ar/">project page</a> /
+                  <a href="https://arxiv.org/abs/2208.09480">arXiv</a> /
+                  codes /
+                  <a href="https://youtu.be/OnhYDC_rygQ">video</a> /
+                  <a href="https://nv-tlabs.github.io/outdoor-ar/assets/outdoor22_bib.txt">bibtex</a>
+                  <p> We propose a hybrid lighting representation to represent spatial-varying lighting for complex
+                    outdoor street scenes.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="jointopt_stop()" onmouseover="jointopt_start()">
+                <td style="padding:20px;width:25%;vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id='jointopt_image'>
+                      <img src='./images/jointopt/jointopt.gif' width="150">
+                    </div>
+                    <img src='./images/jointopt/jointopt.png' width="150">
+                  </div>
+                  <script type="text/javascript">
+                    function jointopt_start() {
+                      document.getElementById('jointopt_image').style.opacity = "1";
+                    }
+
+                    function jointopt_stop() {
+                      document.getElementById('jointopt_image').style.opacity = "0";
+                    }
+                    jointopt_stop()
+                  </script>
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align: top">
+                  <a href="https://nvlabs.github.io/nvdiffrec/">
+                    <papertitle>Extracting Triangular 3D Models, Materials, and Lighting From Images</papertitle>
+                  </a>
+                  <br>
+                  <a href="https://research.nvidia.com/person/jacob-munkberg">Jacob Munkberg</a>,
+                  <a href="https://research.nvidia.com/person/jon-hasselgren">Jon Hasselgren</a>,
+                  <a href="http://www.cs.toronto.edu/~shenti11/">Tianchang Shen</a>,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>,
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="https://research.nvidia.com/person/alex-evans">Alex Evans</a>,
+                  <a href="https://research.nvidia.com/person/thomas-mueller">Thomas Müller</a>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  <br>
+                  <em>CVPR</em>, 2022 &nbsp
+                  <font color="red"><strong> (Oral Presentation)</strong></font>
+                  <br>
+                  <a href="https://nvlabs.github.io/nvdiffrec/">project page</a> /
+                  <a href="https://arxiv.org/abs/2111.12503">arXiv</a> /
+                  <a href="https://github.com/NVlabs/nvdiffrec">codes</a> /
+                  <a href="https://www.youtube.com/watch?v=5j8I7V6blqM">video</a> /
+                  <a href="https://nvlabs.github.io/nvdiffrec/assets/bib.txt">bibtex</a>
+                  <p>Nvdiffrec reconstructs 3D mesh with materials from multi-view images by combining diff surface
+                    modeling with diff renderer. The method supports Nvidia <a
+                      href="https://www.youtube.com/watch?v=vgot-CK1xRk">Neural Drivesim</a></p>
+                </td>
+              </tr>
+
+              <!-- Publication 2021-->
+              <tr bgcolor="#ffffd0">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <img src='./images/dibrpp/dibrpp_intro.jpeg' width="100%">
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://nv-tlabs.github.io/DIBRPlus/">
+                    <papertitle>DIB-R++: Learning to Predict Lighting and Material with a Hybrid Differentiable Renderer
+                    </papertitle>
+                  </a>
+                  <br>
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="https://joeylitalien.github.io">Joey Litalien</a>,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>,
+                  <a href="http://www.cs.toronto.edu/~zianwang/">Zian Wang</a>,
+                  <a href="https://github.com/caenorst">Clement Fuji Tsang</a>,
+                  <a href="https://www.samehkhamis.com">Sameh Khamis</a>,
+                  <a href="https://orlitany.github.io">Or Litany</a>,
+                  <a href="https://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  <br>
+                  <em>NeurIPS</em>, 2021
+                  <br>
+                  <a href="https://nv-tlabs.github.io/DIBRPlus/">project page</a> /
+                  <a href="https://arxiv.org/abs/2111.00140">arXiv</a> /
+                  codes /
+                  <a href="https://papertalk.org/papertalks/36945">video</a> /
+                  <a href="https://nv-tlabs.github.io/DIBRPlus/bib.html">bibtex</a>
+                  <p>DIB-R++ is a high-performant differentiable renderer which combines rasterization and ray-tracing
+                    together and supports advanced lighitng and material effects. We further embed it in deep learning
+                    and jointly predict geometry, texture, light and material from a single image.</p>
+                </td>
+              </tr>
+
+              <tr bgcolor="#ffffd0">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <img src="images/20-stylegan3.png" width="100%">
+                </td>
+
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://nv-tlabs.github.io/GANverse3D/">
+                    <papertitle>Image GANs meet Differentiable Rendering for Inverse
+                      Graphics and Interpretable 3D Neural
+                      Rendering</papertitle>
+                  </a>
+                  <br>
+                  <a>Yuxuan Zhang*</a>, <strong>Wenzheng Chen*</strong>,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>,
+                  <a href="http://www.cs.toronto.edu/~linghuan/">Huan Ling</a>, <a>Yinan Zhang</a>,
+                  <br>
+                  <a href="https://groups.csail.mit.edu/vision/torralbalab/">Antonio Torralba</a>
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  (* Equal contribution)
+                  <br>
+                  <em>ICLR</em>, 2021 &nbsp
+                  <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <br>
+                  <a href="https://nv-tlabs.github.io/GANverse3D/">project page</a> /
+                  <a href="https://arxiv.org/abs/2010.09125">arXiv</a>
+                  / codes /
+                  <a href="https://papertalk.org/papertalks/28644">video</a> /
+                  <a href="papers/20-stylerender.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    We explore StyleGAN as a multi-view image generator and
+                    train inverse graphics from StyleGAN images. Once trained,
+                    the invere graphics model further helps disentangle and
+                    manipulate StyleGAN latent code from graphics
+                    knowledge.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Publication 2020-->
+              <tr bgcolor="#ffffd0" onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img width="90%" src="images/20-nlos3.png" />
+                  </div>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: top">
+                  <a href="https://light.cs.princeton.edu/publication/nlos-learnedfeatures/">
+                    <papertitle>Learned Feature Embeddings for Non-Line-of-Sight
+                      Imaging and Recognition</papertitle>
+                  </a>
+                  <br />
+                  <strong>Wenzheng Chen*</strong>,
+                  <a href="https://weify627.github.io/">Fangyin Wei*</a>,
+                  <a href="http://www.cs.toronto.edu/~kyros/">Kyros Kutulakos</a>,
+                  <br />
+                  <a href="https://www.cs.princeton.edu/~smr/">Szymon Rusinkiewicz</a>,
+                  <a href="http://www.cs.princeton.edu/~fheide/">Felix Heide
+                  </a>
+                  (* Equal contribution)
+                  <br />
+                  <em>SIGGRAPH Asia</em>, 2020 &nbsp
+                  <font color="red"><strong></strong></font>
+                  <br />
+                  <a href="https://light.cs.princeton.edu/publication/nlos-learnedfeatures/">
+                    project page</a> /
+                  <a
+                    href="https://light.cs.princeton.edu/wp-content/uploads/2020/09/NLOS-LearnedFeatures-main.pdf">paper</a>
+                  / <a href="https://github.com/princeton-computational-imaging/NLOSFeatureEmbeddings">codes</a> /
+                  <a href="papers/20-nlos.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    We propose to learn feature embeddings for
+                    non-line-of-sight imaging and recognition by propagating
+                    features through physical modules.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <img src="images/20-diftet.jpg" width="100%">
+                </td>
+
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://nv-tlabs.github.io/DefTet/">
+                    <papertitle>Learning Deformable Tetrahedral Meshes for 3D
+                      Reconstruction</papertitle>
+                  </a>
+                  <br>
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao</a>,
+                  <strong>Wenzheng Chen</strong>, <a>Tommy Xiang</a>,
+                  <a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a>,
+                  <a href="https://www.cs.williams.edu/~morgan/">Morgan Mcguire</a>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  <br>
+                  <em>NeurIPS</em>, 2020 &nbsp
+                  <font color="red"><strong></strong></font>
+                  <br>
+                  <a href="https://nv-tlabs.github.io/DefTet/">project page</a> /
+                  <a>arXiv</a>
+                  / codes /
+                  <a href="https://papertalk.org/papertalks/9550">video</a> /
+                  <a href="papers/20-deftet.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    We predict deformable tetrahedral meshes from images or
+                    point clouds, which support arbitrary topologies. We also
+                    design a differentiable renderer for tetrahedron, allowing
+                    3D reconstrucion from 2D supervison only.
+                  </p>
+                </td>
+              </tr>
+
+              <tr bgcolor="#ffffd0" onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <img width="90%" src="images/20-autotunning.gif" />
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://www.dgp.toronto.edu/autotuningsl/">
+                    <papertitle>Auto-Tuning Structured Light by Optical Stochastic
+                      Gradient Descent</papertitle>
+                  </a>
+                  <br />
+                  <strong>Wenzheng Chen*</strong>,
+                  <a href="https://www.cs.toronto.edu/~parsa/">Parsa Mirdehghan*</a>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>,
+                  <a href="https://www.cs.toronto.edu/~kyros/">Kyros Kutulakos</a>
+                  (* Equal contribution)
+                  <br />
+                  <em>CVPR</em>, 2020 &nbsp
+                  <font color="red"><strong></strong></font>
+                  <br />
+                  <a href="https://www.dgp.toronto.edu/autotuningsl/">
+                    project page</a> /
+                  <a href="https://www.dgp.toronto.edu/autotuningsl/ims/7187.pdf">paper</a> /
+                  <a href="https://www.dgp.toronto.edu/autotuningsl/">codes</a> /
+                  <a href="https://papertalk.org/papertalks/14703">video</a> /
+                  <a href="papers/20-autotuning.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    We present optical SGD, a computational imaging technique
+                    that allows an active depth imaging system to
+                    automatically discover optimal illuminations & decoding.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Publication 2019-->
+              <tr bgcolor="#ffffd0" onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img width="100%" src="images/dibrender.png" />
+                  </div>
+                </td>
+
+                <td style="padding: 20px; width: 75%; vertical-align: top">
+                  <a href="https://nv-tlabs.github.io/DIB-R/">
+                    <papertitle>Learning to Predict 3D Objects with an
+                      Interpolation-based Differentiable Renderer</papertitle>
+                  </a>
+                  <br />
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao*</a>,
+                  <a href="http://www.cs.toronto.edu/~linghuan/">Huan Ling*</a>, <a>Edward J. Smith*</a>,
+                  <br />
+                  <a href="https://users.aalto.fi/~lehtinj7/">Jaakko Lehtinen</a>,
+                  <a href="https://www.cs.toronto.edu/~jacobson/">Alec Jacobson</a>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  (* Equal contribution)
+                  <br />
+                  <em>NeurIPS</em>, 2019 &nbsp
+                  <font color="red"><strong></strong></font>
+                  <br />
+                  <a href="https://nv-tlabs.github.io/DIB-R/">project page</a> /
+                  <a href="https://arxiv.org/abs/1908.01210">arXiv</a>
+                  /
+                  <a href="https://github.com/nv-tlabs/DIB-R">codes</a>
+                  /
+                  <a href="papers/19-dib.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    An interpolation-based 3D mesh differentiable renderer
+                    that supports vertex, vertex color, multiple lighting
+                    models, texture mapping and could be easily embedded in
+                    neural networks.
+                  </p>
+                </td>
+              </tr>
+
+
+              <tr bgcolor="#ffffd0" onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img width="100%" src="images/19-nlos.png" />
+                  </div>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://www.cs.princeton.edu/~fheide/steadystatenlos">
+                    <papertitle>Steady-state Non-Line-of-Sight Imaging</papertitle>
+                  </a>
+                  <br />
+                  <strong>Wenzheng Chen</strong>, <a>Simon Daneau</a>,
+                  <a>Fahim Mannan</a>,
+                  <a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>
+                  <br />
+                  <em>CVPR</em>, 2019 &nbsp
+                  <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <br />
+                  <a href="https://www.cs.princeton.edu/~fheide/steadystatenlos">
+                    project page</a> /
+                  <a href="https://arxiv.org/abs/1811.09910">arXiv</a>
+                  /
+                  <a href="https://github.com/wenzhengchen/Steady-state-Non-Line-of-Sight-Imaging">codes</a>
+                  /
+                  <a href="papers/19-nlos.bib">bibtex</a>
+                  <p></p>
+                  <p>We show hidden objects can be recovereed from conventional images instead of transient images.</p>
+                </td>
+              </tr>
+
+
+              <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img width="100%" src="images/19-gcn.png" />
+                  </div>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: top">
+                  <a href="https://arxiv.org/abs/1903.06874">
+                    <papertitle>Fast Interactive Object Annotation with
+                      Curve-GCN</papertitle>
+                  </a>
+                  <br />
+                  <a href="http://www.cs.toronto.edu/~linghuan/">Huan Ling*</a>,
+                  <a href="http://www.cs.toronto.edu/~jungao/">Jun Gao*</a>,
+                  <a href="https://amlankar.github.io/">Amlan Kar</a>,
+                  <strong>Wenzheng Chen</strong>,
+                  <a href="http://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>
+                  (* Equal contribution)
+                  <br />
+                  <em>CVPR</em>, 2019 &nbsp
+                  <font color="red"><strong></strong></font>
+                  <br />
+                  project page /
+                  <a href="https://arxiv.org/abs/1903.06874">arXiv</a>
+                  /
+                  <a href="https://github.com/fidler-lab/curve-gcn">codes</a>
+                  /
+                  <a href="papers/19-gcn.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    We predict object polygon contours from graph neural
+                    networks, where a novel 2D differentiable rendering loss is
+                    introduced. It renders a polygon countour into a segmentation mask
+                    and back propagates the loss to help optimize the polygon
+                    vertices.
+                  </p>
+                </td>
+              </tr>
+
+
+              <!-- Publication 2018-->
+              <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle" align="center">
+                  <div class="one">
+                    <img width="100%" src="images/18-optimalsl.png" />
+                  </div>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: top">
+                  <a href="http://www.dgp.toronto.edu/optimalsl/">
+                    <papertitle>Optimal Structured Light a la Carte</papertitle>
+                  </a>
+                  <br>
+                  <a href="http://www.cs.toronto.edu/~parsa/">Parsa Mirdehghan</a>, <strong>Wenzheng Chen</strong>,
+                  <a href="hhttps://www.cs.toronto.edu/~kyros/">Kyros Kutulakos</a>
+                  <br />
+                  <em>CVPR</em>, 2018 &nbsp
+                  <font color="red"><strong>(Spotlight Presentation)</strong></font>
+                  <br>
+                  <a href="http://www.dgp.toronto.edu/optimalsl/">
+                    project page</a> /
+                  <a href="http://www.dgp.toronto.edu/optimalsl/files/1697.pdf">paper</a>
+                  /
+                  <a href="http://www.dgp.toronto.edu/optimalsl/">codes</a>
+                  /
+                  <a href="papers/18-sl.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    alacarte designs structured light patterns from a maching
+                    learning persepctive, where patterns are automatically
+                    optimized by minimizing the disparity error under any given imaging condition.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Publication 2016-->
+              <tr bgcolor="#ffffd0" onmouseout="d3d_stop()" onmouseover="d3d_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle" align="center">
+                  <div class="one">
+                    <div class="two" id="d3d_image">
+                      <img style="vertical-align: middle" height="100%" src="images/d3d_after.jpg" />
+                    </div>
+                    <img style="vertical-align: middle" height="100%" src="images/d3d_before.jpg" />
+                  </div>
+                  <script type="text/javascript">
+                    function d3d_start() {
+                      document.getElementById("d3d_image").style.opacity =
+                        "1";
+                    }
+
+                    function d3d_stop() {
+                      document.getElementById("d3d_image").style.opacity =
+                        "0";
+                    }
+                    d3d_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="http://irc.cs.sdu.edu.cn/Deep3DPose/">
+                    <papertitle>Synthesizing Training Images for Boosting Human 3D Pose
+                      Estimation</papertitle>
+                  </a>
+                  <br />
+                  <strong>Wenzheng Chen</strong>, <a>Huan Wang</a>,
+                  <a href="http://yangyan.li/">Yangyan Li</a>,
+                  <a href="https://cseweb.ucsd.edu/~haosu/">Hao Su</a>,
+                  <a>Zhenhua Wang</a>,
+                  <br />
+                  <a href="http://irc.cs.sdu.edu.cn/~chtu/index.html">Changhe Tu</a>,
+                  <a href="http://www.cs.huji.ac.il/~danix/">Dani Lischinski</a>,
+                  <a href="http://www.math.tau.ac.il/~dcor/">Daniel Cohen-Or</a>,
+                  <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>
+                  <br />
+                  <em>3DV</em>, 2016 &nbsp
+                  <font color="red"><strong>(Oral Presentation)</strong></font>
+                  <br />
+                  <a href="http://irc.cs.sdu.edu.cn/Deep3DPose/">project page</a> /
+                  <a href="https://arxiv.org/abs/1604.02703">arXiv</a>
+                  /
+                  <a href="https://github.com/chen1474147/Deep3DPose">codes</a>
+                  /
+                  <a href="papers/16-3dv.bib">bibtex</a>
+                  <p></p>
+                  <p>
+                    3D pose estimation from model trained with synthetic data
+                    and domain adaptation.
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <!--  last part -->
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 0px">
+                  <br />
+                  <p style="text-align: middle; font-size: small">
+                    I stole the website template from
+                    <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
