@@ -51,6 +51,7 @@
                   </p>
                   <p style="justify-content: space-between">
                     I'm a tenure-track Assistant Professor at <a href="https://www.wict.pku.edu.cn/xztd/xztd_01/1222604.htm">Wangxuan Institute of Computer Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a>, where I mainly work on Computational Photography and 3D Vision.
+                    I am also affiliated in the <a href="https://vcl.pku.edu.cn/">Visual Computing and Learning Lab</a>, collaborating with <a href="https://cfcs.pku.edu.cn/baoquan/">Prof. Baoquan Chen</a>, <a href=http://libliu.info/>Prof. Libin Liu</a>, <a href="https://rachelcmy.github.io/">Prof. Mengyu Chu</a>, and <a href="https://binwangbfa.github.io/">Dr. Bin Wang</a>.
                   </p>
 
                   <p style="justify-content: space-between">
@@ -183,7 +184,7 @@
                       </font>
                     </li>
                     <li>
-                      <font color="red"> For graduate school applicants, we have one openings for PhD students in 2025.
+                      <font color="red"> For graduate school applicants, I have one Ph.D. opening admitted in 2025.
                       </font>
                     </li>
                     <li>
@@ -213,7 +214,11 @@
               <tr>
                 <td style="padding: 20px; width: 100%; vertical-align: middle">
                   <heading>Selected Publication</heading>
+                   <!--
                   <p>Representative papers are <span class="highlight">highlighted</span>, with full publication list in
+                    <a href="https://scholar.google.com/citations?user=KzhR_TsAAAAJ&hl=en">Google Scholar</a>.
+                    -->
+                    <p>Full publication list in
                     <a href="https://scholar.google.com/citations?user=KzhR_TsAAAAJ&hl=en">Google Scholar</a>.
                   </p>
                 </td>
@@ -233,37 +238,49 @@
             <tbody>
 
               <!-- Publication 2024-->
-              <!-- 
-              <tr bgcolor="#ffffd0">
-                <td style="padding: 20px; width: 25%; vertical-align: middle">
-                  <img src='./images/dibrpp/dibrpp_intro.jpeg' width="100%">
+              <tr onmouseout="gaussian_stop()" onmouseover="gaussian_start()">
+                <td valign="middle" width="25%">
+                  <div class="one">
+                    <div class="two" id='gaussian_image'>
+                      <img src='./images/24-gaussingif.gif' width="100%">
+                    </div>
+                    <img src='./images/2024_4DGS.png' width="100%">
+                  </div>
+                  <script type="text/javascript">
+                    function gaussian_start() {
+                      document.getElementById('gaussian_image').style.opacity = "1";
+                    }
+                    function gaussian_stop() {
+                      document.getElementById('gaussian_image').style.opacity = "0";
+                    }
+                    flexicubes_stop()
+                  </script>
                 </td>
-                <td style="padding: 20px; width: 75%; vertical-align: middle">
-                  <a href="https://nv-tlabs.github.io/DIBRPlus/">
+                <td valign="top" width="75%">
+                  <a href="">
                     <papertitle>4D-Rotor Gaussian Splatting: Towards Efficient Novel-View Synthesis for Dynamic Scenes
                     </papertitle>
                   </a>
                   <br>
-                  <a href="https://orlitany.github.io">Yuanxing Duan</a>,
-                  <a href="https://orlitany.github.io">Fangyin Wei</a>,
-                  <a href="https://joeylitalien.github.io">Qiyu Dai</a>,
-                  <a href="http://www.cs.toronto.edu/~jungao/">Yuhang He</a>,
-                  <strong>Wenzheng Chen</strong>,
-                  <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen</a>
+                  <a href="https://github.com/LRLVEC">Yuanxing Duan*</a>,
+                  <a href="https://weify627.github.io/">Fangyin Wei*</a>,
+                  <a href="https://daiqy.github.io/">Qiyu Dai</a>,
+                  <a href="">Yuhang He</a>,
+                  <strong>Wenzheng Chen<sup>#</sup></strong>,
+                  <a href="https://cfcs.pku.edu.cn/baoquan/">Baoquan Chen<sup>#</sup></a>
+                  <br>
+                  (* Equal contribution, <sup>#</sup> joint corresponding authors)
                   <br>
                   <em>Proc. SIGGRAPH</em>, 2024
                   <br>
-                  <a href="https://nv-tlabs.github.io/DIBRPlus/">project page</a> /
-                  <a href="https://arxiv.org/abs/2111.00140">arXiv</a> /
-                  codes /
-                  <a href="https://papertalk.org/papertalks/36945">video</a> /
-                  <a href="https://nv-tlabs.github.io/DIBRPlus/bib.html">bibtex</a>
-                  <p>DIB-R++ is a high-performant differentiable renderer which combines rasterization and ray-tracing
-                    together and supports advanced lighitng and material effects. We further embed it in deep learning
-                    and jointly predict geometry, texture, light and material from a single image.</p>
+                  <a href="https://arxiv.org/abs/2402.03307">arXiv</a> /
+                  code coming soon /
+                  <a href="./papers/24-gaussian.bib">bibtex</a>
                 </td>
               </tr>
-              -->
+
+
+
 
               <tr onmouseout="flexicubes_stop()" onmouseover="flexicubes_start()">
                 <td width="25%">
