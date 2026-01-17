@@ -11,27 +11,12 @@
 </head>
 
 <body>
-    <table style="
-        width: 100%;
-        max-width: 800px;
-        border: 0px;
-        border-spacing: 0px;
-        border-collapse: separate;
-        margin-right: auto;
-        margin-left: auto;
-      ">
+    <table class="main-table">
         <tbody>
             <tr style="padding: 0px">
                 <td style="padding: 0px">
                     <!-- Bio ---------------------------------->
-                    <table style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
+                    <table class="content-table">
                         <tbody>
                             <tr style="padding: 0px">
                                 <td style="padding: 2.5%; width: 63%; vertical-align: middle">
@@ -88,8 +73,7 @@
                     <table>
                         <tr>
                             <td style="padding: 20px 0; width: 100%; vertical-align: middle">
-                                <div
-                                    style="background-color: #f0f7ff; border-left: 5px solid #0056b3; padding: 15px; border-radius: 4px; line-height: 1.5;">
+                                <div class="info-box">
                                     <heading style="margin-bottom: 10px; display:block;">Research</heading>
                                     <p>
                                         My research focuses on <strong>Computational Photography</strong> and <strong>3D
@@ -106,30 +90,12 @@
                     </table>
 
                     <!-- News -->
-                    <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto">
+                    <table class="content-table">
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>News</heading>
                                     <p>
-                                        <style>
-                                            .news-date {
-                                                font-family: 'Courier New', monospace;
-                                                color: #555;
-                                                margin-right: 8px;
-                                                font-weight: bold;
-                                            }
-
-                                            .news-item {
-                                                margin-bottom: 8px;
-                                            }
-
-                                            strong {
-                                                color: #333;
-                                            }
-                                        </style>
-
                                     <div class="news-item"><span class="news-date">[2025.12]</span> One paper accepted
                                         to
                                         <strong><a href="https://ai4scientificimaging.org/dive3d/">TMLR</a></strong>. We
@@ -142,14 +108,13 @@
                                         We tackle the challenging blind inverse problems with latent diffusion priors.
                                     </div>
 
-                                    <!---<div class="news-item" style="line-height: 1.5;"><span class="news-date">[2025.11]</span> One paper accepted to <strong>3DV
+                                    <!---<div class="news-item"><span class="news-date">[2025.11]</span> One paper accepted to <strong>3DV
                                             2026</strong>. We propose an inverse rendering technique for extremely motion-blurred 3D reconstrucion.
-                                    </div> 
+                                    </div>
                                     -->
 
-                                    <div class="news-item" style="line-height: 1.5;"><span
-                                            class="news-date">[2025.08]</span> One paper accepted to <strong><a
-                                                href="https://namisntimpot.github.io/NSLweb/">SIGGRAPH
+                                    <div class="news-item"><span class="news-date">[2025.08]</span> One paper accepted
+                                        to <strong><a href="https://namisntimpot.github.io/NSLweb/">SIGGRAPH
                                                 Asia 2025</a></strong>. We developed a
                                         powerful structured light 3D imaging technique achieving 10x accuracy
                                         improvement over traditional methods.</div>
@@ -186,13 +151,11 @@
                     </table>
 
                     <!-- Hiring -->
-                    <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <table class="content-table">
                         <tbody>
                             <tr>
                                 <td style="padding: 20px 0; width: 100%; vertical-align: middle">
-                                    <div
-                                        style="background-color: #f0f7ff; border-left: 5px solid #0056b3; padding: 15px; border-radius: 4px;">
+                                    <div class="info-box">
                                         <heading style="margin-bottom: 10px; display:block;">🔥 Hiring / 招生</heading>
                                         <p>
                                             I am actively recruiting <b>Ph.D. students (2027 intake)</b> and <b>Research
@@ -214,14 +177,7 @@
 
 
                     <!-- Publication head-->
-                    <table style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
+                    <table class="content-table">
                         <tbody>
                             <tr>
                                 <td style="padding: 20px; width: 100%; vertical-align: middle">
@@ -239,16 +195,69 @@
                         </tbody>
                     </table>
                     <!-- Publication head-->
-                    <table style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
+                    <table class="content-table">
                         <tbody>
 
+                            <!-- Year 2026 -->
+                            <tr>
+                                <td class="year-divider" colspan="2">
+                                    <span class="year-label">2026</span>
+                                </td>
+                            </tr>
+
+                            <!-- publication 2026-->
+
+                            <tr onmouseout="" onmouseover="">
+                                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                                    <video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+                                        <source src="images/2026-orbit.mp4" type="video/mp4">
+                                    </video>
+                                </td>
+                                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                                    <a href="https://pku-vcl-geometry.github.io/Orbit2Ground/">
+                                        <papertitle>From Orbit to Ground: Generative City Photogrammetry from Extreme
+                                            Off-Nadir Satellite Images
+                                        </papertitle>
+                                    </a>
+                                    <br>
+                                    <a href="https://maxmilite.github.io/">Fei Yu*</a>,
+                                    <a href="https://scholar.google.com/citations?user=XchgHFoAAAAJ">Yu Liu*</a>,
+                                    <a href="https://scholar.google.com/citations?user=2A1sp-wAAAAJ">Luyang Tang</a>,
+                                    <a href="https://scholar.google.com/citations?user=bqsITKQAAAAJ">Mingchao Sun</a>,
+                                    <a href="https://github.com/boolwater">Zengye Ge</a>,
+                                    <a href="https://scholar.google.com/citations?user=YMRzlkMAAAAJ">Rui Bu</a>,
+                                    <br>
+                                    <a href="https://nobodywant2try.github.io/">Yuchao Jin</a>,
+                                    <a href="https://haisenzhao.github.io/">Haisen Zhao</a>,
+                                    <a href="https://ai4scientificimaging.org/">He Sun</a>,
+                                    <a href="https://yangyan.li/">Yangyan Li</a>,
+                                    <a href="https://scholar.google.com/citations?user=JGi4S0EAAAAJ">Mu
+                                        Xu<sup>#</sup></a>,
+                                    <strong>Wenzheng Chen<sup>#</sup></strong>,
+                                    <a href="http://baoquanchen.info/">Baoquan Chen<sup>#</sup></a>
+                                    <br>
+                                    <em>arXiv</em>, 2025
+                                    <br>
+                                    <a href="https://pku-vcl-geometry.github.io/Orbit2Ground/">project page</a>
+                                    /
+                                    <a href="https://arxiv.org/abs/2512.07527">arXiv</a>
+                                    /
+                                    <a href="./bib/26-orbit.bib">bibtex</a>
+                                    <p></p>
+                                    <p>
+                                        We propose a method to enable photorealistic city-scale 3D reconstruction from
+                                        extreme off-nadir satellite
+                                        imagery.
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <!-- Year 2025 -->
+                            <tr>
+                                <td class="year-divider" colspan="2">
+                                    <span class="year-label">2025</span>
+                                </td>
+                            </tr>
 
                             <!-- Publication 2025-->
 
@@ -353,6 +362,12 @@
                                 </td>
                             </tr>
 
+                            <!-- Year 2024 -->
+                            <tr>
+                                <td class="year-divider" colspan="2">
+                                    <span class="year-label">2024</span>
+                                </td>
+                            </tr>
 
                             <!-- Publication 2024-->
 
@@ -451,6 +466,13 @@
                                     <a href="https://github.com/weify627/4D-Rotor-Gaussians">code</a>
                                     /
                                     <a href="./papers/24-gaussian.bib">bibtex</a>
+                                </td>
+                            </tr>
+
+                            <!-- Year Before 2023 -->
+                            <tr>
+                                <td class="year-divider" colspan="2">
+                                    <span class="year-label">2023 and before</span>
                                 </td>
                             </tr>
 

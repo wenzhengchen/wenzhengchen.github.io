@@ -136,3 +136,60 @@ name {
 span.highlight {
     background-color: #ffffd0;
 }
+
+/* Common table styles to avoid inline duplication */
+.main-table {
+    width: 100%;
+    max-width: 800px;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-table {
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* News section styles */
+.news-date {
+    font-family: 'Courier New', monospace;
+    color: #555;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.news-item {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* Info box styles (Research, Hiring sections) */
+.info-box {
+    background-color: #f0f7ff;
+    border-left: 5px solid #0056b3;
+    padding: 15px;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+/* Year divider for publications */
+.year-divider {
+    padding: 20px;
+    width: 100%;
+    vertical-align: middle;
+    border-top: 2px solid #ddd;
+}
+
+.year-label {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
